@@ -1,6 +1,6 @@
 {
-  "name": "typescript-package-starter",
-  "version": "1.0.3",
+  "name": "@riginoommen/typescript-package-starter",
+  "version": "1.0.5",
   "description": "TypeScript boilerplate for NPM or Github Packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,6 +36,7 @@
     "node": ">=8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@riginoommen"
+    "registry": "https://npm.pkg.github.com/@riginoommen",
+    "access": "public"
   }
 }
